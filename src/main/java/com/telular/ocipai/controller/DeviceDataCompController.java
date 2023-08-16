@@ -67,4 +67,8 @@ public class DeviceDataCompController
 		
 		return responseList; 
 	}
+	@GetMapping("/health-check")
+        public String getHealthCheck() {
+    		return "Success";
+	}
 }
