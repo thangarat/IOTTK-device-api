@@ -52,7 +52,7 @@
                <artifactId>spring-cloud-aws-core</artifactId>
 	       <version>3.0.1</version>
             </dependency>
-
+<!-- https://mvnrepository.com/artifact/software.amazon.awscdk/secretsmanager -->
         <dependency>
            <groupId>software.amazon.awssdk</groupId>
             <artifactId>secretsmanager</artifactId>
